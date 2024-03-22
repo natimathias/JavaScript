@@ -41,8 +41,21 @@ exemploEscopo();
 // console.log(variavelConst); // Isso gerará um erro, pois variavelConst está fora do escopo
 ```
 
-### Exercício para fixação:
+### Exercício:
+Crie uma função que receba como parâmetro a quantidade de novos produtos, a quantidade de produtos vendidos, se a quantidade atual de produtos em estoque é suficiente para atender a uma determinada quantidade solicitada.
 
 ```javascript
+var nomeLoja = "Minha Loja de Produtos";
+
+const quantidadeMaximaEstoque = 100;
+
+let quantidadeAtualEstoque = 50;
+
+quantidadeAtualEstoque += 10; 
+quantidadeAtualEstoque -= 5;  
+
+console.log("Nome da Loja:", nomeLoja);
+console.log("Quantidade Máxima de Produtos em Estoque:", quantidadeMaximaEstoque);
+console.log("Quantidade Atual de Produtos em Estoque:", quantidadeAtualEstoque);
 ```
   
