@@ -1,6 +1,6 @@
 ## DECLARAÇÃO DE VARIÁVEIS
 
-Podemos declarar uma variável usando as palavras-chaves var, let ou const.
+Podemos declarar uma variável usando as palavras-chaves ```var```, ```let``` ou ```const```.
 
 ### Var
 
