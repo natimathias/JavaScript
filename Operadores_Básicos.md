@@ -31,6 +31,15 @@ console.log(a >= b);
 console.log(a <= b);
 
 //Lógicos
+a = 25
+b = 9
+
+console.log(a > 4 && b < 7) 
+console.log(a < 13 || b > 7)
+console.log(!(a == 5))
+
+//Typeof
 
 ```
+
 
