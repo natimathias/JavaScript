@@ -4,7 +4,7 @@ Podemos declarar uma variável usando as palavras-chaves ```var```, ```let``` ou
 
 ### Var
 
-- Var: é uma das formas mais antigas em JavaScript e tem algumas características únicas em relação ao escopo. 
+- ```Var```: é uma das formas mais antigas em JavaScript e tem algumas características únicas em relação ao escopo. 
 
 ### Exemplo: 
 ```javascript
