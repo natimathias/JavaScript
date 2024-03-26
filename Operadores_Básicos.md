@@ -34,9 +34,9 @@ console.log(a <= b);
 a = 25
 b = 9
 
-console.log(a > 4 && b < 7) 
-console.log(a < 13 || b > 7)
-console.log(!(a == 5))
+console.log(a > 4 && b < 7)  //And
+console.log(a < 13 || b > 7) // Or
+console.log(!(a == 5)) //Not
 
 //Typeof
 

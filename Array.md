@@ -8,3 +8,13 @@ console.log(numeros[1])
 ```
 
 ### Exercício:
+Crie um programa que armazena uma lista de cores e exibe cada cor na lista.
+
+```javascript
+let cores = ["vermelho", "azul", "verde", "amarelo", "roxo"];
+
+console.log("Lista de Cores:");
+for (let cor of cores) {
+    console.log(cor);
+}
+```

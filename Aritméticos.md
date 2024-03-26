@@ -16,3 +16,13 @@ console.log(x / y)
 ```
 
 ### Exercício:
+Calcule o custo total da compra.
+
+```javascript
+let precoUnitario = 20;
+let quantidade = 5;    
+
+let custoTotal = precoUnitario * quantidade;
+
+console.log("O custo total da compra é: R$", custoTotal);
+```

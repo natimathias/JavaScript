@@ -1,4 +1,6 @@
-x = 10
-y = 5
+let cores = ["vermelho", "azul", "verde", "amarelo", "roxo"];
 
-console.log(x / y)
+console.log("Lista de Cores:");
+for (let cor of cores) {
+    console.log(cor);
+}
