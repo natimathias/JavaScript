@@ -2,25 +2,25 @@
 Referem-se à classificação dos valores que podem ser armazenados e manipulados por um programa. Esses tipos de dados determinam como os valores podem ser interpretados e quais operações podem ser realizadas com eles.
 
 Alguns tipos de dados:
-- Number: Representa valores numéricos, como inteiros e números decimais.
+- ```Number```: Representa valores numéricos, como inteiros e números decimais.
 
-- String: Representa sequências de caracteres, como texto.
+- ```String```: Representa sequências de caracteres, como texto.
 
-- Boolean: Representa valores lógicos verdadeiro ou falso.
+- ```Boolean```: Representa valores lógicos verdadeiro ou falso.
 
-- Null: Representa a ausência intencional de qualquer valor ou objeto.
+- ```Null```: Representa a ausência intencional de qualquer valor ou objeto.
 
-- Undefined: Representa um valor não definido. Geralmente é o valor atribuído a uma variável que ainda não foi inicializada.
+- ```Undefined```: Representa um valor não definido. Geralmente é o valor atribuído a uma variável que ainda não foi inicializada.
 
-- Object: Representa coleções de dados e funcionalidades relacionadas, organizadas como pares chave/valor. Os objetos podem ser objetos predefinidos, como Math ou Date, ou objetos definidos pelo usuário.
+- ```Object```: Representa coleções de dados e funcionalidades relacionadas, organizadas como pares chave/valor. Os objetos podem ser objetos predefinidos, como Math ou Date, ou objetos definidos pelo usuário.
 
-- Array: Representa uma coleção ordenada de valores, onde cada valor é identificado por um índice numérico.
+- ```Array```: Representa uma coleção ordenada de valores, onde cada valor é identificado por um índice numérico.
 
-- Function: Representa um bloco de código que pode ser chamado, opcionalmente, com parâmetros, para realizar uma tarefa específica.
+- ```Function```: Representa um bloco de código que pode ser chamado, opcionalmente, com parâmetros, para realizar uma tarefa específica.
 
-- Symbol: Representa um valor único e imutável usado como chave em objetos do tipo Map ou como identificador de propriedades de objetos.
+- ```Symbol```: Representa um valor único e imutável usado como chave em objetos do tipo Map ou como identificador de propriedades de objetos.
 
-- BigInt: Representa números inteiros de precisão arbitrária.
+- ```BigInt```: Representa números inteiros de precisão arbitrária.
 
 ### Exemplo:
 ```javascript

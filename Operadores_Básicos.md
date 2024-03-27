@@ -39,7 +39,24 @@ console.log(a < 13 || b > 7) // Or
 console.log(!(a == 5)) //Not
 
 //Typeof
+console.log(typeof 25);  
+console.log(typeof "Olá Mundo");  
+console.log(typeof true);  
+console.log(typeof {name: "Luiza"});  
+console.log(typeof [1, 2, 3]);  
+console.log(typeof undefined); 
+console.log(typeof null);  
+console.log(typeof function() {}); 
 
 ```
+### Exercício:
+Exercício simples para fixar.
+```javascript
+y = 10
+z = 420
 
-
+console.log(y > z)
+console.log(y < 4 || z > 32)
+console.log(y + z)
+console.log(typeof y)
+```

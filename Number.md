@@ -12,7 +12,7 @@ var numeroInteiro = 42;
 var numeroDecimal = 3.14;
 
 var resultado = numeroInteiro * numeroDecimal;
-console.log(resultado); // Saída: 131.88
+console.log(resultado); 
 ```
 
 ### Exercício:

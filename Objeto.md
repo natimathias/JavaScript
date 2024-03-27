@@ -12,12 +12,10 @@ var pessoa = {
     }
 };
 
-// Acessando propriedades do objeto
 console.log("Nome:", pessoa.nome);
 console.log("Idade:", pessoa.idade);
 console.log("Cidade:", pessoa.cidade);
 
-// Invocando o método do objeto
 console.log(pessoa.saudacao());
 ```
 

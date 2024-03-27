@@ -1,13 +1,13 @@
-## Corda
-"String" (ou "cadeia de caracteres" em português) é um tipo de dado que representa uma sequência de caracteres. Uma string pode conter letras, números, símbolos e até mesmo espaços em branco. Em muitas linguagens de programação, incluindo JavaScript, as strings são delimitadas por aspas simples (' '), aspas duplas (" "), ou acento grave (``).
+## String
+```String``` (ou "cadeia de caracteres" em português) é um tipo de dado que representa uma sequência de caracteres. Uma string pode conter letras, números, símbolos e até mesmo espaços em branco. As strings são delimitadas por aspas simples (' '), aspas duplas (" "), ou acento grave (``).
 
 ### Exemplo:
 ```javascript
 var texto1 = "Olá, ";
 var texto2 = "mundo!";
-var saudacao = texto1 + texto2; // Concatenação de strings
+var saudacao = texto1 + texto2; 
 
-console.log(saudacao); // Saída: "Olá, mundo!"
+console.log(saudacao); 
 ```
 
 ### Exercício:

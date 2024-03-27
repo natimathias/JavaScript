@@ -1,6 +1,5 @@
 ## Boleano
 É um tipo de dado que pode ter um de dois valores: verdadeiro (true) ou falso (false). Esse tipo de dado é usado para representar estados lógicos, como o resultado de uma comparação ou o estado de uma condição.
-Em JavaScript, você pode usar operadores de comparação, como >, <, ===, etc., para comparar valores e obter um valor booleano como resultado. Além disso, estruturas de controle de fluxo, como if/else, while, e for, usam expressões booleanas para determinar o comportamento do programa.
 
 ### Exemplo:
 ```javascript
