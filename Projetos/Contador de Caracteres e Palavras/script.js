@@ -13,13 +13,13 @@ function handleBtnContar(evento){
         evento.target.innerText = "Contar Caracteres"
         tipoContagem = "caracteres"
     }
-    
 }
 
-const handleInputTexto = (evento) => {
-    console.log(evento.target.value)
-}
 
-btnContar.addEventListener("click", handleBtnContar) //Generico, serve para qualquer evento
-// btnContar.onclick = handleBtnContar // serve apenas para o evento de onclick
-inputTexto.addEventListener("input", handleInputTexto)
+// const handleInputTexto = (evento) => {
+//     console.log(evento.target.value)
+// }
+
+// btnContar.addEventListener("click", handleBtnContar) //Generico, serve para qualquer evento
+// // btnContar.onclick = handleBtnContar // serve apenas para o evento de onclick
+// inputTexto.addEventListener("input", handleInputTexto)
