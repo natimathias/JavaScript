@@ -31,7 +31,6 @@ function handleInputTexto(evento){
 
 btnContar.addEventListener("click", handleBtnContar)
 inputTexto.addEventListener("input",handleInputTexto)
-handleInputTexto();
 
 
 
