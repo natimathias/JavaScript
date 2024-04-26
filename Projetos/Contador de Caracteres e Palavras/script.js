@@ -1,25 +1,36 @@
-const inputTexto = document.querySelector("[input-texto]")
-const btnContar = document.querySelector("[btn-contar]")
+const inputTexto= document.querySelector("[input-texto]")
+const btnContar= document.querySelector("[btn-contar]")
 const divContador = document.querySelector("[txt-contador]")
 
-let tipoContagem = "caracteres"
+let tipoContagem = "Caracteres";
+
 
 function handleBtnContar(evento){
-    // console.log(evento.target) // target - captura o evento que está sendo selecionado, captura apenas elemento html
-    if (tipoContagem == "caracteres"){
-        evento.target.innerText = "Contar Palavras"
-        tipoContagem = "palavras"
-    } else {
-        evento.target.innerText = "Contar Caracteres"
-        tipoContagem = "caracteres"
+    if(tipoContagem == "Caracteres"){
+        evento.target.innerText = 'Contar Caracteres';
+        tipoContagem = "Palavras";
+      
+    }else{
+        evento.target.innerText ='Contar Palavras';
+        tipoContagem = "Caracteres";
+    }  
+    handleInputTexto();
+}
+
+
+function handleInputTexto(evento){
+    const texto =inputTexto.value  
+    if(tipoContagem == "Caracteres"){
+        divContador.innerText = texto.length + ' caracteres'
+
+    }else{
+        const countWords = texto.trim().split(" ").filter(Boolean);
+        divContador.innerText = countWords.length + " palavras";       
     }
-    
 }
 
-const handleInputTexto = (evento) => {
-    console.log(evento.target.value)
-}
 
-btnContar.addEventListener("click", handleBtnContar) //Generico, serve para qualquer evento
-// btnContar.onclick = handleBtnContar // serve apenas para o evento de onclick
-inputTexto.addEventListener("input", handleInputTexto)
+
+btnContar.addEventListener("click", handleBtnContar)
+inputTexto.addEventListener("input",handleInputTexto)
+handleInputTexto();
