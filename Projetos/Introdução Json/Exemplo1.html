@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let json1 = "{'nome' : 'João', 'telefone' : 44988551234}"
+
+        let json2 = `{
+            'nome' : 'João', 
+            'telefone' : 44988551234
+        }`
+
+        let contato1 = {
+            nome: "João",
+            telefone: 11111111111
+        }
+
+        let contato2 = {
+            nome: "Maria",
+            telefone: 22222222222
+        }
+
+        contato1.nome = "Jose"
+        contato1.cpf = "0000"
+        contato1["cpf"] = "0000"
+
+        json1 = json1.replace("João", "Jose")
+
+        console.log(json1)
+        console.log(contato1)
+    </script>
+</body>
+</html>
