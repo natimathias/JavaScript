@@ -17,31 +17,33 @@ numero.addEventListener("input", (evento) => {
     }
 });
 
-numero.addEventListener("focus", () =>{
+numero.addEventListener("focus", () => {
     mensagem.textContent = " "
     linkTexto.textContent = " "
+    linkTexto.classList.remove("border")
 })
 
 function handlebotaoLink() {
-    const numeroFormatado = numero.value.replace(/\D/g, ""); //Remove todos os caracteres que não é número 
-    if(numeroFormatado.length === 11){
+   const numeroFormatado = numero.value.replace(/\D/g, ""); //Remove todos os caracteres que não é número 
+    if (numeroFormatado.length === 11) {
         const link = "https://wa.me/55" + numeroFormatado;
         linkTexto.textContent = link;
         mensagem.textContent = "Clique no link para copiar";
-        linkTexto.style.border = "1px solid black";
-        linkTexto.style.borderRadius = "5px";
-    }else{
+        // linkTexto.style.border = "1px solid black";
+        // linkTexto.style.borderRadius = "5px";
+        linkTexto.classList.add("border")
+    } else {
         alert("Erro. O número deve conter apenas 11 dígitos!")
     }
 }
 
 function handlebotaoSend() {
     const numeroFormatado = numero.value.replace(/\D/g, "");
-    if(numeroFormatado.length === 11){
+    if (numeroFormatado.length === 11) {
         const linkAbaNova = "https://wa.me/55" + numeroFormatado;
         const win = window.open(linkAbaNova, "_blank");
         win.focus();
-    }else{
+    } else {
         alert("Erro. O número deve conter apenas 11 dígitos!")
     }
         
