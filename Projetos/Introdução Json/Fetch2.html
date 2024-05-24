@@ -23,8 +23,12 @@
         let divContainer = document.querySelector("#container")
 
         fetch("info.json")
-            .then(resposta => resposta.json())
+            .then(resposta => {
+                console.log(resposta)
+                return resposta.json()
+            })
             .then(objeto => {
+                console.log(objeto)
                 // divContainer.innerHTML = `<p>Nome: ${objeto.nome}</p> <p>Telefone: ${objeto.telefone}</p>`
 
                 let lista = document.createElement("ul") // Tem como fazer por lista e por parágrafo
@@ -32,7 +36,7 @@
                 let item1 = document.createElement("li")
                 let item2 = document.createElement("li")
 
-                item1.innerText = objeto.nome
+                item1.innerText = objeto.nome //Tanto faz usar innerText ou innerContent, os dois funcionam
                 item2.innerContent = objeto.telefone
 
                 item1.classList.add("verde")

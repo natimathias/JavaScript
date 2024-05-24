@@ -14,13 +14,14 @@
     <script>
 
         let divContainer = document.querySelector("#container")
-
         console.log("1")
+
         fetch("info.txt")
-            .then(resposta => resposta.text())
+            .then(resposta => resposta.text()) // Chamada assíncrona
             .then(texto => divContainer.innerHTML = texto)
         console.log("2")
         console.log("3")
+
     </script>
 
 </body>
