@@ -1,0 +1,164 @@
+:root{
+    --gray-700: #0d0d0d;
+    --gray-600: #1a1a1a;
+    --gray-500: #262626;
+    --gray-400: #333333;
+    --gray-300: #808080;
+    --gray-200: #d9d9d9;
+    --gray-100: #f2f2f2;
+    --blue-dark: #1e6f9f;
+    --blue: #4ea8de;
+    --purple-dark: #5e60ce;
+    --purple: #8284fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header{
+    background-color: var(--gray-700);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 126px;
+    height: 48px;
+}
+
+main{
+    background-color: var(--gray-600); 
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.criar{
+    width: 736px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+input{
+    width: 638px;
+    height: 52px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+    margin-right: 8px;
+}
+
+button{
+    width: 90px;
+    height: 52px;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plus{
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+
+.caixa{
+    width: 736px;
+    height: 451px;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+
+.azul{
+    color: var(--blue);
+}
+
+.roxo{
+    color: var(--purple);
+}
+
+.criadas{
+    display: flex;
+}
+
+.concluidas{
+    display: flex;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.numero{
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 19px;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.numero1{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 19px;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.container{
+    width: 736px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.campos-container{
+    width: 100%;
+    height: 72px;
+    background-color: var(--gray-500);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#tarefas{
+    display: flex;
+    color: var(--gray-100);
+}
+
+
