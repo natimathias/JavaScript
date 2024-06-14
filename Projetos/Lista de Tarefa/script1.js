@@ -1,1 +1,0 @@
-const criar = document.getElementById()
